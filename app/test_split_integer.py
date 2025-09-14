@@ -3,8 +3,8 @@ from app.split_integer import split_integer
 
 def test_sum_of_the_parts_should_be_equal_to_value() -> None:
     result_1 = split_integer(8, 1)
-    assert sum(result_1) == 5
-    assert len(result_1) == 4
+    assert sum(result_1) == 8
+    assert len(result_1) == 1
 
     result_2 = split_integer(6, 2)
     assert sum(result_2) == 6
